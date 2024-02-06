@@ -1,0 +1,27 @@
+.LEGOminati-heading {
+    font-size: 5vw;
+}
+.primary-heading {
+    font-size: 5em;
+}
+.about {
+    min-height: 100vh;
+}
+.sized-box {
+    height: 20px;
+}
+.about-carousel {
+}
+.about-carousel img {
+    object-fit: contain;
+    height: 40vh;
+    width: 40vh;
+}
+@media only screen and (max-width: 600px) {
+    #down-team-btn {
+        display: none;
+    }
+    .about {
+        min-height: auto; /* Ändere die min-height für Mobilgeräte nach Bedarf */
+    }
+}
