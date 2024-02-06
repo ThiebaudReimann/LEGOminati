@@ -1,0 +1,8 @@
+<script>
+    var userLanguage = window.navigator.language || window.navigator.userLanguage;
+    if (userLanguage.startsWith('de')) {
+        window.location.href = '/de';
+    } else {
+        window.location.href = '/en';
+    }
+</script>
