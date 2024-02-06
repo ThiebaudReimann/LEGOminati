@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<script>var userLanguage = window.navigator.language || window.navigator.userLanguage;
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <p id="test">Loading</p>
-    <script>var userLanguage = window.navigator.language || window.navigator.userLanguage;
-
-        if (userLanguage.startsWith('de')) {
+if (userLanguage.startsWith('de')) {
             console.log('Die Sprache des Benutzers ist Deutsch.');
             document.getElementById('test').innerHTML = 'Deutsch';
         } else {
             console.log('Die Sprache des Benutzers ist nicht Deutsch.');
             document.getElementById('test').innerHTML = 'nicht Deutsch';
-        }
-    </script>
-</body>
-
-</html>
+  }
+</script>
