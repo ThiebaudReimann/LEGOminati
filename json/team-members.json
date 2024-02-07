@@ -25,6 +25,11 @@
         "img": "../assets/img/avatars/default.webp"
     },
     {
+        "name": "Manuel",
+        "description": "Junior-Coach",
+        "img": "../assets/img/avatars/avatar-manuel.jpg"
+    },
+    {
         "name": "Maxi",
         "description": "Unbekannt",
         "img": "../assets/img/avatars/default.webp"
