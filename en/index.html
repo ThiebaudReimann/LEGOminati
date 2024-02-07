@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - LEGOminati</title>
     <link rel="shortcut icon" href="../assets/img/logos/LEGOminati-Logo.png" type="image/png">
-    <link href="../css/colors.min.css" rel="stylesheet">
     <link rel="prefetch">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/colors.min.css">
     <link rel="stylesheet" href="../css/heading.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/team-grid.css">
     <link rel="stylesheet" href="../css/colors.scss">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -27,8 +27,8 @@
             </a>
 
             <!-- Navbar-Toggler für mobile Ansicht -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" data-bs-offset="0"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                data-bs-offset="0" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -47,7 +47,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
-                    
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            en
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">en</a></li>
+                            <li><a class="dropdown-item" href="../de/">de</a></li>
+                        </ul>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -56,31 +65,37 @@
     <div class="container text-center mt-5">
         <div data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
             class="scrollspy-example p-3 rounded-2" tabindex="0">
-            <div class="about">
-                <div class="over-type" data-aos="fade-up"><div class="lego-heading"><h1 class="LEGOminati-heading inter" id="about"><span class="inika">LEGO</span>minati</h1></div></div>
-                <p data-aos="fade-up" data-aos-delay="400">Hi! Wir sind die LEGOminati vom <a href="https://www.wwg-bayreuth.de/" target="_blank">WWG
+            <section id="about" class="about">
+                <div class="over-type" data-aos="fade-up">
+                    <div class="lego-heading">
+                        <h1 class="LEGOminati-heading inter"><span class="inika">LEGO</span>minati</h1>
+                    </div>
+                </div>
+                <p data-aos="fade-up" data-aos-delay="400">Hi! Wir sind die LEGOminati vom <a
+                        href="https://www.wwg-bayreuth.de/" target="_blank">WWG
                         Bayreuth</a>. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus eaque
                     delectus assumenda fuga eos necessitatibus est suscipit, laboriosam, nostrum modi, dicta hic
                     dolorum. Tempora quas quod quasi temporibus accusantium possimus?
                 </p>
                 <div class="sized-box"></div>
-                <div id="carouselExampleCaptions" class="carousel slide about-carousel" data-aos="fade-up" data-aos-delay="800">
+                <div id="about-img-carousel" class="carousel slide about-carousel" data-aos="fade-up"
+                    data-aos-delay="800">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="4"
                             aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="5"
                             aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="6"
                             aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                        <button type="button" data-bs-target="#about-img-carousel" data-bs-slide-to="7"
                             aria-label="Slide 8"></button>
                     </div>
                     <div class="carousel-inner">
@@ -139,28 +154,20 @@
                         </div>
 
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#about-img-carousel"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    <button class="carousel-control-next" type="button" data-bs-target="#about-img-carousel"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <div class="sized-box"></div>
-                <section class="down-team-btn"><a href="#team"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                    fill="white" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67" />
-                </svg></a></section>
-            </div>
-            <div class="sized-box"></div>
-            <section class="over-team"></section>
-            <div class="team">
-                <h1 class="primary-heading inika" id="team" data-aos="zoom-in">Team</h1>
+            </section>
+            <section id="team" class="team">
+                <h1 class="primary-heading inika" data-aos="zoom-in" id="team">Team</h1>
                 <div class="grid-container" data-aos="zoom-in">
                     <div class="card">
                         <img src="../assets/img/avatars/default.webp" alt="Avatar 1">
@@ -213,7 +220,10 @@
                         <p>Unbennant</p>
                     </div>
                 </div>
-            </div>
+            </section>
+
+
+            <!--Weitere gegenstände-->
         </div>
     </div>
 
@@ -232,6 +242,7 @@
                         <a href="legal" class="btn btn-primary">Legal Notice</a>
                     </div>
                 </div>
+                <p class="text-center">&copy; 2024 Thiebaud Reimann</p>
             </div>
         </div>
     </footer>

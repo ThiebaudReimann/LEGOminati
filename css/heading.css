@@ -5,7 +5,7 @@
     font-size: 5em;
 }
 .about {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 .sized-box {
     height: 20px;
@@ -18,11 +18,14 @@
     width: 40vh;
 }
 @media only screen and (max-width: 600px) {
-    #down-team-btn {
-        display: none;
-    }
     .about {
         min-height: auto; /* Ändere die min-height für Mobilgeräte nach Bedarf */
+    }
+    .mobile-invisible {
+        display: none;
+    }
+    .width100 {
+        width: 100%;;
     }
 }
 .typewriter {
