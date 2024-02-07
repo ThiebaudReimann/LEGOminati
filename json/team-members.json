@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Stingl",
+        "description": "Coach",
+        "img": "../assets/img/avatars/avatar-stingl.jpg"
+    },
+    {
+        "name": "Ines Günther",
+        "description": "Coach",
+        "img": "../assets/img/avatars/avatar-guenther.jpg"
+    },
+    {
+        "name": "Auriel",
+        "description": "UX Designerin",
+        "img": "../assets/img/avatars/default.webp"
+    },
+    {
+        "name": "Laurin",
+        "description": "Multitalent",
+        "img": "../assets/img/avatars/avatar-laurin.jpg"
+    },
+    {
+        "name": "Leonard",
+        "description": "Unbekannt",
+        "img": "../assets/img/avatars/default.webp"
+    },
+    {
+        "name": "Maxi",
+        "description": "Unbekannt",
+        "img": "../assets/img/avatars/default.webp"
+    },
+    {
+        "name": "Philipp",
+        "description": "Datenanalyst",
+        "img": "../assets/img/avatars/default.webp"
+    },
+    {
+        "name": "Rebecca",
+        "description": "Unbekannt",
+        "img": "../assets/img/avatars/default.webp"
+    },
+    {
+        "name": "Stephan",
+        "description": "IT-Sicherheitsexperte",
+        "img": "../assets/img/avatars/default.webp"
+    },
+    {
+        "name": "Thiébaud",
+        "description": "Support Junge",
+        "img": "../assets/img/avatars/avatar-thiebaud.jpg"
+    }
+]
