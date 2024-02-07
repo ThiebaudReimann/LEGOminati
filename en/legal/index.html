@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../css/team-grid.css">
     <link rel="stylesheet" href="../../css/colors.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
         .scrollable-content {
             max-height: 70vh;
@@ -67,7 +68,7 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
+    <div class="container mt-5" data-aos="fade-up" data-aos-delay="400">
         <h1>Legal Notice</h1> <br>
         <div class="row">
             <div class="col-4 mobile-invisible">
@@ -113,7 +114,8 @@
                             evaluation of press releases and speeches are generally permitted with proper attribution.
                             <br> <br> Furthermore, texts, images, graphics, and other files may be wholly or partially
                             subject to the copyright of third parties. The individuals responsible for the content can
-                            provide more information on the existence of possible rights from third parties.</p>
+                            provide more information on the existence of possible rights from third parties.
+                        </p>
                     </div>
                     <div id="disclaimer">
                         <h4>Disclaimer</h4>
@@ -171,6 +173,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
