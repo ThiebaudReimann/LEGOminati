@@ -1,0 +1,22 @@
+[
+    {
+        "jahr": "2023-24",
+        "shortId": "masterpiece",
+        "name": "Saison 2023-24 Master Piece",
+        "saisonIcon": "../assets/icons/seasons/SUPERPOWERED.png",
+        "text": {
+            "de": "<span>...</span>",
+            "en": "<span>...</span>"
+        }
+    },
+    {
+        "jahr": "2022-23",
+        "shortId": "superpowered",
+        "name": "Saison 2022-23 Super Powered",
+        "saisonIcon": "../assets/icons/seasons/SUPERPOWERED.png",
+        "text": {
+            "de": "<span>...</span>",
+            "en": "<span>...</span>"
+        }
+    }
+]
