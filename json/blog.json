@@ -18,15 +18,5 @@
             "de": "<span>...</span>",
             "en": "<span>...</span>"
         }
-    },
-    {
-        "jahr": "2024-25",
-        "shortId": "leo",
-        "name": "Leonard 2024-25",
-        "saisonIcon": "https://www.sueddeutsche.de/image/sz.1.2671084/640x360?v=1685632275",
-        "text": {
-            "de": "<span>Schwul</span>",
-            "en": "<span>Gay</span>"
-        }
     }
 ]
