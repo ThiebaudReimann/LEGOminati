@@ -1,4 +1,59 @@
 /**
+ * IMAGE CAROUSEL
+ */
+
+function loadImageCarousel() {
+    const jsonFilePath = '../json/img-carousel.json';
+
+    const carouselIndicators = document.querySelector('.carousel-indicators');
+    const carouselInner = document.querySelector('.carousel-inner');
+
+    fetch(jsonFilePath)
+        .then(response => response.json())
+        .then(data => {
+            data.forEach((entry, index) => {
+                isFirst = index === 0;
+                langGerman = window.location.href.includes('/de/');
+
+                // Carousel Indicators
+                const newIndicatorButton = document.createElement('button');
+                newIndicatorButton.type = 'button';
+                newIndicatorButton.setAttribute('data-bs-target', '#about-img-carousel');
+                newIndicatorButton.setAttribute('data-bs-slide-to', index);
+                newIndicatorButton.setAttribute('aria-label', `Slide ${index}`);
+                if (isFirst) {
+                    newIndicatorButton.classList.add('active');
+                    newIndicatorButton.setAttribute('aria-current', "true")
+                }
+                carouselIndicators.appendChild(newIndicatorButton);
+
+                //Carousel Inner
+                //create Div
+                const innerDiv = document.createElement('div');
+                innerDiv.classList.add('carousel-item');
+                if (isFirst) {
+                    innerDiv.classList.add('active');
+                }
+                //create inner Markup
+                const innerDivMarkup = `<img src="${entry.imagePath}" class="d-block w-100" alt="${entry.altText}">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>${langGerman ? entry.caption['de'].title : entry.caption['en'].title}</h5>
+                    <p>${langGerman ? entry.caption['de'].description : entry.caption['en'].description}</p>
+                </div>`;
+                innerDiv.innerHTML = innerDivMarkup;
+                carouselInner.appendChild(innerDiv);
+
+
+
+
+            });
+        })
+        .catch(error => {
+            console.error('Error loading the JSON file:', error);
+        });
+}
+
+/**
  * TEAM GRID
  */
 
@@ -65,8 +120,8 @@ function loadBlog() {
                 newTabContentItem.id = `${entry.shortId}-tab-pane`;
                 newTabContentItem.setAttribute('role', 'tabpanel');
                 newTabContentItem.setAttribute('aria-labelledby', `${entry.shortId}-tab`);
-                
-                const langGerman = window.location.href.endsWith('de/');
+
+                const langGerman = window.location.href.includes('/de/');
 
                 const text = `
                 <h1>${entry.name} <img src="${entry.saisonIcon}" height="40px"></h1>
@@ -86,7 +141,8 @@ function loadBlog() {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
+    loadImageCarousel();
     loadTeamGrid();
     loadBlog();
 });
