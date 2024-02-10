@@ -1,22 +1,33 @@
 [
     {
         "de": {
-            "head": "Forschung Ger",
-            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+            "head": "Robot Game",
+            "body": "Hierbei geht es darum in 2:30 min möglichst viele Aufgaben auf einem Spielfeld zu lösen. Jede Saison gibt es ein neues Spielfeld. Es muss zunächst ein Roboter aus Lego gebaut und programmiert werden, sodass dieser alle Aufgaben autonom lösen kann."
         },
         "en": {
-            "head": "Forschung Engl",
-            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+            "head": "Robot Game",
+            "body": "The aim is to solve as many tasks as possible on a playing field in 2:30 minutes. There is a new playing field every season. First, a robot must be built from Lego and programmed so that it can solve all tasks autonomously"
         }
     },
     {
         "de": {
-            "head": "Robo Ger",
-            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+            "head": "Roboter Design",
+            "body": "Es geht darum seinen Roboter möglichst strategisch passend zu bauen und dann zu präsentieren. Die Strategie für das Robot Game wird in der selben Präsentation der Jury ebenfalls genauer erläutert."
         },
         "en": {
-            "head": "Robo Engl",
-            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+            "head": "Robot Design",
+            "body": "The aim is to build your robot as strategically as possible and then present it. The strategy for the Robot Game is also explained in more detail in the same presentation to the jury."
+        }
+    },
+    {
+        "de": {
+            "head": "Forschung",
+            "body": "Bei der Forschung geht es darum passend zum Saisonthema etwas zu erforschen bzw. zu entwickeln. Dabei sind der Freiheit <strong> keine </strong> Grenzen gesetzt! Projekte, die wir in den letzten Jahren umgesetzt haben, wurden ebenfalls bei <i> Jugend forscht</i> eingereicht. Forschungen aus den letztend Saisons waren z.B. ein autonomer Liefer Roboter oder ein effizienter Energiespeicher."
+        },
+        "en": {
+            "head": "Research",
+            "body": "In research, the goal is to explore or develop something related to the seasonal theme. There are <strong> no </strong> limits to freedom in this process! Projects implemented in recent years have also been submitted to <i> Jugend forscht</i>. Projects from past seasons included, for example, an autonomous delivery robot or an efficient energy storage system."
         }
     }
+    
 ]
