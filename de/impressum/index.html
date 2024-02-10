@@ -19,41 +19,42 @@
     <div class="bg-warning" style="height: 10px;"></div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="../">
-                <img src="../../assets/img/logos/LEGOminati-Logo.png" alt="Logo" width="40"
+            <a class="navbar-brand d-flex align-items-center" href="./">
+                <img src="../assets/img/logos/LEGOminati-Logo.png" alt="Logo" width="40"
                     class="d-inline-block align-text-top">
-                <span> <span class="inika">LEGO</span>minati <span class="badge bg-secondary">Beta</span></span>
+                <span class="inter"> <span class="inika">LEGO</span>minati <span
+                        class="badge bg-secondary">Beta</span></span>
             </a>
-
+    
             <!-- Navbar-Toggler für mobile Ansicht -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+    
             <!-- Navbar-Links -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav nav-pills ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../">Über Uns</a>
+                <ul class="navbar-nav nav-pills ms-auto text-center"> <!-- Änderung hier: navbar-nav Klasse hinzugefügt -->
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="../#about">Über Uns</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../#team">Team</a>
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="../#team">Team</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../#competition">Wettbewerbe</a>
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="../#competition">Wettbewerb</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../#blog">Blog</a>
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="../#blog">Archiv</a>
                     </li>
-                    <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    <div class="dropdown nav-spacing">
+                        <a class="btn btn-secondary dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             de
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="">de</a></li>
-                            <li><a class="dropdown-item" href="../../en/legal/">en</a></li>
+                            <li><a class="dropdown-item" href="../en/legal">en</a></li>
                         </ul>
                     </div>
                 </ul>
