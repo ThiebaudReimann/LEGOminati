@@ -5,13 +5,13 @@
         "img": "../assets/img/avatars/avatar-stingl.jpg"
     },
     {
-        "name": "Ines Günther",
+        "name": "I. Günther",
         "description": "Coach",
         "img": "../assets/img/avatars/avatar-guenther.jpg"
     },
     {
         "name": "Auriel",
-        "description": "UX Designerin",
+        "description": "Mate Junkie",
         "img": "../assets/img/avatars/avatar-auriel.jpg"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "name": "Leonard",
-        "description": "Unbekannt",
+        "description": "Le Constructeur",
         "img": "../assets/img/avatars/default.webp"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
         "name": "Philipp",
-        "description": "Datenanalyst",
+        "description": "Der Experte",
         "img": "../assets/img/avatars/default.webp"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
         "name": "Stephan",
-        "description": "IT-Sicherheitsexperte",
+        "description": "Mini Me",
         "img": "../assets/img/avatars/default.webp"
     },
     {
