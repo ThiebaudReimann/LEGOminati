@@ -41,11 +41,12 @@
     }
     .secondary-heading {
         font-size: 2em;
-    }
+    }    
+}
+@media (max-width: 768px) {
     .mobile-invisible {
         display: none;
     }
-
     .width100 {
         width: 100%;
         ;
