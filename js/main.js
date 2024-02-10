@@ -88,6 +88,47 @@ function loadTeamGrid() {
 }
 
 /**
+ * COMPETITION ACCORDION
+ */
+
+function loadCompAccordion() {
+    const jsonFilePath = '../json/comp-accordion.json';
+
+    const accordion = document.getElementById('competitionAccordion');
+
+    fetch(jsonFilePath)
+        .then(response => response.json())
+        .then(data => {
+            data.forEach((entry, index) => {
+                const langGerman = window.location.href.includes('/de/');
+                const accordionMarkup = `
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse${index+1}" aria-expanded="false"
+                    aria-controls="collapse${index+1}">
+                    ${langGerman ? entry.de.head : entry.en.head}
+                </button>
+                </h2>
+            <div id="collapse${index+1}" class="accordion-collapse collapse"
+                data-bs-parent="#competitionAccordion">
+                <div class="accordion-body">${langGerman ? entry.de.body : entry.en.body}</div>
+            </div>
+                `;
+
+                const newElement = document.createElement('div');
+                newElement.classList.add('accordion-item');
+
+                newElement.innerHTML = accordionMarkup;
+
+                accordion.appendChild(newElement);
+            });
+        })
+        .catch(error => {
+            console.error('Error loading the JSON file:', error);
+        });
+}
+
+/**
  * ARCHIV
  */
 function loadBlog() {
@@ -144,6 +185,7 @@ function loadBlog() {
 document.addEventListener('DOMContentLoaded', function () {
     loadImageCarousel();
     loadTeamGrid();
+    loadCompAccordion();
     loadBlog();
 });
 

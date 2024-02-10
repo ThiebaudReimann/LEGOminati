@@ -1,0 +1,22 @@
+[
+    {
+        "de": {
+            "head": "Forschung Ger",
+            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+        },
+        "en": {
+            "head": "Forschung Engl",
+            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+        }
+    },
+    {
+        "de": {
+            "head": "Robo Ger",
+            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+        },
+        "en": {
+            "head": "Robo Engl",
+            "body": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body."
+        }
+    }
+]

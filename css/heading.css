@@ -5,13 +5,22 @@
 .primary-heading {
     font-size: 5em;
 }
+.secondary-heading {
+    font-size: 3em;
+}
 
 .about {
     min-height: 80vh;
 }
+.competition {
+    padding: 5vw;
+}
 
 .sized-box {
     height: 20px;
+}
+.spacer {
+    height: 50px;
 }
 
 .about-carousel {}
@@ -27,7 +36,9 @@
         min-height: auto;
         /* Ändere die min-height für Mobilgeräte nach Bedarf */
     }
-
+    .secondary-heading {
+        font-size: 2em;
+    }
     .mobile-invisible {
         display: none;
     }
