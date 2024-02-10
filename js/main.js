@@ -1,3 +1,4 @@
+
 /**
  * IMAGE CAROUSEL
  */
@@ -7,12 +8,13 @@ function loadImageCarousel() {
 
     const carouselIndicators = document.querySelector('.carousel-indicators');
     const carouselInner = document.querySelector('.carousel-inner');
-
+    
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
+            first = Math.floor(Math.random() * data.length);
             data.forEach((entry, index) => {
-                isFirst = index === 0;
+                isFirst = index == first;
                 langGerman = window.location.href.includes('/de/');
 
                 // Carousel Indicators
@@ -35,17 +37,9 @@ function loadImageCarousel() {
                     innerDiv.classList.add('active');
                 }
                 //create inner Markup
-                const innerDivMarkup = `<img src="${entry.imagePath}" class="d-block w-100" alt="${entry.altText}">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>${langGerman ? entry.caption['de'].title : entry.caption['en'].title}</h5>
-                    <p>${langGerman ? entry.caption['de'].description : entry.caption['en'].description}</p>
-                </div>`;
+                const innerDivMarkup = `<img src="${entry.imagePath}" class="d-block w-100" alt="${entry.altText}">`;
                 innerDiv.innerHTML = innerDivMarkup;
                 carouselInner.appendChild(innerDiv);
-
-
-
-
             });
         })
         .catch(error => {
@@ -104,12 +98,12 @@ function loadCompAccordion() {
                 const accordionMarkup = `
                 <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse${index+1}" aria-expanded="false"
-                    aria-controls="collapse${index+1}">
+                    data-bs-target="#collapse${index + 1}" aria-expanded="false"
+                    aria-controls="collapse${index + 1}">
                     ${langGerman ? entry.de.head : entry.en.head}
                 </button>
                 </h2>
-            <div id="collapse${index+1}" class="accordion-collapse collapse"
+            <div id="collapse${index + 1}" class="accordion-collapse collapse"
                 data-bs-parent="#competitionAccordion">
                 <div class="accordion-body">${langGerman ? entry.de.body : entry.en.body}</div>
             </div>
@@ -180,7 +174,6 @@ function loadBlog() {
             console.error('Error loading the JSON file:', error);
         });
 }
-
 
 document.addEventListener('DOMContentLoaded', function () {
     loadImageCarousel();

@@ -1,114 +1,47 @@
 [
     {
-        "imagePath": "../assets/img/carousel/Nürnberg-2023.jpg",
-        "altText": "Nürnberg 2023",
-        "caption": {
-            "de": {
-                "title": "Nürnberg 2023",
-                "description": "Champion in Nürnberg 2023"
-            },
-            "en": {
-                "title": "Nürnberg 2023",
-                "description": "Champion in Nürnberg 2023"
-            }
-        }
+      "imagePath": "../assets/img/carousel/1.1 2024.jpg",
+      "altText": "1.1"
     },
     {
-        "imagePath": "../assets/img/carousel/Nürnberg-2024-am-Tisch.jpg",
-        "altText": "Nürnberg 2024",
-        "caption": {
-            "de": {
-                "title": "Nürnberg 2024",
-                "description": "Champion/Robot Game Sieger in Nürnberg 2023"
-            },
-            "en": {
-                "title": "Nürnberg 2024",
-                "description": "Champion/Robot Game Sieger in Nürnberg 2023"
-            }
-        }
+      "imagePath": "../assets/img/carousel/1.2 2024.jpg",
+      "altText": "1.2"
     },
     {
-        "imagePath": "../assets/img/carousel/Offenburg-1.jpg",
-        "altText": "Offenburg 2023",
-        "caption": {
-            "de": {
-                "title": "Offenburg 2023",
-                "description": ""
-            },
-            "en": {
-                "title": "Offenburg 2023",
-                "description": ""
-            }
-        }
+      "imagePath": "../assets/img/carousel/2.1 2024.jpg",
+      "altText": "2.1"
     },
     {
-        "imagePath": "../assets/img/carousel/Offenburg-2.jpg",
-        "altText": "Offenburg 2023",
-        "caption": {
-            "de": {
-                "title": "Offenburg 2023",
-                "description": ""
-            },
-            "en": {
-                "title": "Offenburg 2023",
-                "description": ""
-            }
-        }
+      "imagePath": "../assets/img/carousel/2.2 2024.jpg",
+      "altText": "2.2"
     },
     {
-        "imagePath": "../assets/img/carousel/Offenburg-3.jpg",
-        "altText": "Offenburg 2023",
-        "caption": {
-            "de": {
-                "title": "Offenburg 2023",
-                "description": ""
-            },
-            "en": {
-                "title": "Offenburg 2023",
-                "description": ""
-            }
-        }
+      "imagePath": "../assets/img/carousel/2.3 2024.jpg",
+      "altText": "2.3"
     },
     {
-        "imagePath": "../assets/img/carousel/Offenburg-Roboter.jpg",
-        "altText": "Offenburg 2023",
-        "caption": {
-            "de": {
-                "title": "Offenburg 2023",
-                "description": ""
-            },
-            "en": {
-                "title": "Offenburg 2023",
-                "description": ""
-            }
-        }
+      "imagePath": "../assets/img/carousel/3.1 2023.jpg",
+      "altText": "3.1"
     },
     {
-        "imagePath": "../assets/img/carousel/Team-Bild-Nürnber-2024-Champion.jpg",
-        "altText": "Nürnberg 2024",
-        "caption": {
-            "de": {
-                "title": "Nürnberg 2024",
-                "description": "Champion/Robot Game Sieger in Nürnberg 2024"
-            },
-            "en": {
-                "title": "Nürnberg 2024",
-                "description": "Champion/Robot Game Sieger in Nürnberg 2024"
-            }
-        }
+      "imagePath": "../assets/img/carousel/4.1 2023.jpg",
+      "altText": "4.1"
     },
     {
-        "imagePath": "../assets/img/carousel/Zeitung.jpg",
-        "altText": "Zeitung",
-        "caption": {
-            "de": {
-                "title": "Zeitung",
-                "description": ""
-            },
-            "en": {
-                "title": "Newspaper",
-                "description": ""
-            }
-        }
+      "imagePath": "../assets/img/carousel/4.2 2023.jpg",
+      "altText": "4.2"
+    },
+    {
+      "imagePath": "../assets/img/carousel/4.3 2023.jpg",
+      "altText": "4.3"
+    },
+    {
+      "imagePath": "../assets/img/carousel/4.4 2023.jpg",
+      "altText": "4.4"
+    },
+    {
+      "imagePath": "../assets/img/carousel/5.1 2023.jpg",
+      "altText": "5.1"
     }
-]
+  ]
+  
