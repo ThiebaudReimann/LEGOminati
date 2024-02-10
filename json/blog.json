@@ -3,7 +3,7 @@
         "jahr": "2023-24",
         "shortId": "masterpiece",
         "name": "Saison 2023-24 Master Piece",
-        "saisonIcon": "../assets/icons/seasons/SUPERPOWERED.png",
+        "saisonIcon": "https://www.ljbw.de/media/first_masterpiece_logo_vertical_rgb.png",
         "text": {
             "de": "<span>...</span>",
             "en": "<span>...</span>"
