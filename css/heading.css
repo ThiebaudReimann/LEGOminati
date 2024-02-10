@@ -1,6 +1,9 @@
 .LEGOminati-heading {
     font-size: 4em;
 }
+.container {
+    margin-top: 3vh !important;
+}
 
 .primary-heading {
     font-size: 5em;
