@@ -21,7 +21,7 @@
     },
     {
         "jahr": "2021-22",
-        "shortId": "cargo connect",
+        "shortId": "cargoConnect",
         "name": "Saison 2021-22 Cargo Connect",
         "saisonIcon": "../assets/icons/seasons/CARGOCONNECT.png",
         "text": {
