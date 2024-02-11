@@ -7,6 +7,7 @@
         "en": "Season 2023/24 Masterpiece"
       },
       "saisonIcon": "../assets/icons/seasons/MASTERPIECE.png",
+      "iconLink": "https://www.wwg-bayreuth.de/service/aktuelles#20240205_15080_Road_to_Davos_",
       "text": {
         "de": "<h4>Regionalwettbewerb Nürnberg</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Nominierung Robot-Design <br>Nominierung Forschung <br>Nominierung Grundwerte</span><br><br><h4>Semifinale Regensburg</h4><span>Am 24.02.2024</span>",
         "en": "<h4>Regional Competition Nuremberg</h4><span>Champion Trophy <br>Robot Game Trophy <br>Nomination Robot Design <br>Nomination Research <br>Nomination Core Values</span><br><br><h4>Semifinal Regensburg</h4><span>On 24.02.2024</span>"
@@ -20,6 +21,7 @@
         "en": "Season 2022/23 Super Powered"
       },
       "saisonIcon": "../assets/icons/seasons/SUPERPOWERED.png",
+      "iconLink": null,
       "text": {
         "de": "<h4>Regionalwettbewerb Nürnberg</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Nominierung Robot-Design <br>Nominierung Forschung <br>Nominierung Grundwerte</span><br><br><h4>Semifinale DACH / Ortenau</h4><span>3. Platz Robot-Game</span>",
         "en": "<h4>Regional Competition Nuremberg</h4><span>Champion Trophy <br>Robot Game Trophy <br>Nomination Robot Design <br>Nomination Research <br>Nomination Core Values</span><br><br><h4>Semifinal DACH / Ortenau</h4><span>3rd Place Robot Game</span>"
@@ -33,6 +35,7 @@
         "en": "Season 2021/22 Cargo Connect"
       },
       "saisonIcon": "../assets/icons/seasons/CARGOCONNECT.png",
+      "iconLink": null,
       "text": {
         "de": "<h4>Regionalwettbewerb Nürnberg</h4><span>Robot-Game Pokal <br>Pokal Forschung <br> 2.Platz Gesamtwertung</span>",
         "en": "<h4>Regional Competition Nuremberg</h4><span>Robot Game Trophy <br>Research Trophy <br>2nd Place Overall Ranking</span>"
@@ -46,6 +49,7 @@
         "en": "Season 2020/21 Replay"
       },
       "saisonIcon": "../assets/icons/seasons/REPLAY.png",
+      "iconLink": null,
       "text": {
         "de": "<h4>Regionalwettbewerb Kulmbach (virtuell)</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Robot-Design Pokal <br> Coach Pokal <br>2. Platz Forschung <br>2. Platz Grundwerte</span><br><br><h4>DACH Finale (virtuell)</h4>",
         "en": "<h4>Regional Competition Kulmbach (virtual)</h4><span>Champion Trophy <br>Robot Game Trophy <br>Robot Design Trophy <br>Coach Trophy <br>2nd Place Research <br>2nd Place Core Values</span><br><br><h4>DACH Finals (virtual)</h4>"
@@ -59,6 +63,7 @@
         "en": "Season 2019/20 City Shaper"
       },
       "saisonIcon": "../assets/icons/seasons/CITY-SHAPER.png",
+      "iconLink": null,
       "text": {
         "de": "<h4>Regionalwettbewerb Kulmbach</h4><span>Champion Pokal <br>Robot-Game Pokal <br>2. Platz Robot-Design<br> 2. Platz Forschung<br>2. Platz Teamwork</span><br><br><h4>Semifinale Zentraleuropa / Regensburg</h4><span>1. Platz Robot-Game <br>3. Platz Robot-Design</span>",
         "en": "<h4>Regional Competition Kulmbach</h4><span>Champion Trophy <br>Robot Game Trophy <br>2nd Place Robot Design <br>2nd Place Research <br>2nd Place Teamwork</span><br><br><h4>Semifinal Central Europe / Regensburg</h4><span>1st Place Robot Game <br>3rd Place Robot Design</span>"
@@ -72,6 +77,7 @@
         "en": "Season 2018/19 Into Orbit"
       },
       "saisonIcon": "../assets/icons/seasons/INTOORBIT.webp",
+      "iconLink": null,
       "text": {
         "de": "<h4>Regionalwettbewerb Kulmbach</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Robot-Design Pokal <br>3. Platz Forschung <br>3. Platz Teamwork</span><br><br><h4>Semifinale Zentraleuropa / Regensburg</h4><span>3. Platz Robot-Game</span>",
         "en": "<h4>Regional Competition Kulmbach</h4><span>Champion Trophy <br>Robot Game Trophy <br>Robot Design Trophy <br>3rd Place Research <br>3rd Place Teamwork</span><br><br><h4>Semifinal Central Europe / Regensburg</h4><span>3rd Place Robot Game</span>"
@@ -85,6 +91,7 @@
         "en": "Season 2017/18 Hydrodynamics"
       },
       "saisonIcon": "../assets/icons/seasons/HYDRODYNAMICS.png",
+      "iconLink": null,
       "text": {
         "de": "<h4>Regionalwettbewerb Kulmbach</h4><span>Pokal Teamwork <br>2. Platz Gesamtwertung <br>2. Platz Robot-Game <br>3. Platz Forschung <br>Teilnahme am Semifinale Zentraleuropa / Regensburg</span>",
         "en": "<h4>Regional Competition Kulmbach</h4><span>Teamwork Trophy <br>2nd Place Overall Ranking <br>2nd Place Robot Game <br>3rd Place Research <br>Participation in Semifinal Central Europe / Regensburg</span>"

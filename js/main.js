@@ -157,9 +157,9 @@ function loadBlog() {
                 newTabContentItem.setAttribute('aria-labelledby', `${entry.shortId}-tab`);
 
                 const langGerman = window.location.href.includes('/de/');
-
+                const hasIconLink = entry.iconLink != null;
                 const text = `
-                <h1>${langGerman ? entry.name.de : entry.name.en} <img src="${entry.saisonIcon}" height="40px"></h1>
+                <h1>${langGerman ? entry.name.de : entry.name.en} <a href="${hasIconLink ? entry.iconLink : "#"}"><img src="${entry.saisonIcon}" height="40px"></a></h1>
                 <br/>
                 ${langGerman ? entry.text.de : entry.text.en}
                 `;
