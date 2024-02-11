@@ -159,9 +159,9 @@ function loadBlog() {
                 const langGerman = window.location.href.includes('/de/');
 
                 const text = `
-                <h1>${entry.name} <img src="${entry.saisonIcon}" height="40px"></h1>
+                <h1>${langGerman ? entry.name.de : entry.name.en} <img src="${entry.saisonIcon}" height="40px"></h1>
                 <br/>
-                ${langGerman ? entry.text['de'] : entry.text['en']}
+                ${langGerman ? entry.text.de : entry.text.en}
                 `;
 
                 newTabContentItem.innerHTML = text;
