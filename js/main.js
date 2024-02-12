@@ -95,18 +95,22 @@ function loadCompAccordion() {
         .then(data => {
             data.forEach((entry, index) => {
                 const langGerman = window.location.href.includes('/de/');
+                const langFrench = window.location.href.includes('/fr/');
+                
                 const accordionMarkup = `
-                <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse${index + 1}" aria-expanded="false"
-                    aria-controls="collapse${index + 1}">
-                    ${langGerman ? entry.de.head : entry.en.head}
-                </button>
-                </h2>
-            <div id="collapse${index + 1}" class="accordion-collapse collapse"
-                data-bs-parent="#competitionAccordion">
-                <div class="accordion-body">${langGerman ? entry.de.body : entry.en.body}</div>
-            </div>
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse${index + 1}" aria-expanded="false"
+                            aria-controls="collapse${index + 1}">
+                            ${langGerman ? entry.de.head : (langFrench ? entry.fr.head : entry.en.head)}
+                        </button>
+                    </h2>
+                    <div id="collapse${index + 1}" class="accordion-collapse collapse"
+                        data-bs-parent="#competitionAccordion">
+                        <div class="accordion-body">
+                            ${langGerman ? entry.de.body : (langFrench ? entry.fr.body : entry.en.body)}
+                        </div>
+                    </div>
                 `;
 
                 const newElement = document.createElement('div');
@@ -121,6 +125,7 @@ function loadCompAccordion() {
             console.error('Error loading the JSON file:', error);
         });
 }
+
 
 /**
  * ARCHIV
@@ -157,11 +162,12 @@ function loadBlog() {
                 newTabContentItem.setAttribute('aria-labelledby', `${entry.shortId}-tab`);
 
                 const langGerman = window.location.href.includes('/de/');
+                const langFrench = window.location.href.includes('/fr/');
                 const hasIconLink = entry.iconLink != null;
                 const text = `
-                <h1>${langGerman ? entry.name.de : entry.name.en} <a href="${hasIconLink ? entry.iconLink : "#"}"><img src="${entry.saisonIcon}" height="40px"></a></h1>
-                <br/>
-                ${langGerman ? entry.text.de : entry.text.en}
+                    <h1>${langGerman ? entry.name.de : (langFrench ? entry.name.fr : entry.name.en)} <a href="${hasIconLink ? entry.iconLink : "#"}"><img src="${entry.saisonIcon}" height="40px"></a></h1>
+                    <br/>
+                    ${langGerman ? entry.text.de : (langFrench ? entry.text.fr : entry.text.en)}
                 `;
 
                 newTabContentItem.innerHTML = text;
@@ -174,6 +180,7 @@ function loadBlog() {
             console.error('Error loading the JSON file:', error);
         });
 }
+
 
 document.addEventListener('DOMContentLoaded', function () {
     loadImageCarousel();

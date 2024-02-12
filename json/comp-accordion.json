@@ -1,43 +1,58 @@
 [
     {
-        "de": {
-            "head": "Robot Game",
-            "body": "Hierbei geht es darum in 2:30 min möglichst viele Aufgaben auf einem Spielfeld zu lösen. Jede Saison gibt es ein neues Spielfeld. Es muss zunächst ein Roboter aus Lego gebaut und programmiert werden, sodass dieser alle Aufgaben autonom lösen kann."
+        "fr": {
+            "head": "Jeu de robots",
+            "body": "L'objectif est de résoudre autant de tâches que possible sur un terrain de jeu en 2 minutes et 30 secondes. Un nouveau terrain de jeu est proposé à chaque saison. Tout d'abord, un robot doit être construit en Lego et programmé de manière à pouvoir résoudre toutes les tâches de manière autonome."
         },
         "en": {
             "head": "Robot Game",
-            "body": "The aim is to solve as many tasks as possible on a playing field in 2:30 minutes. There is a new playing field every season. First, a robot must be built from Lego and programmed so that it can solve all tasks autonomously"
+            "body": "The aim is to solve as many tasks as possible on a playing field in 2:30 minutes. There is a new playing field every season. First, a robot must be built from Lego and programmed so that it can solve all tasks autonomously."
+        },
+        "de": {
+            "head": "Robot Game",
+            "body": "Hierbei geht es darum in 2:30 min möglichst viele Aufgaben auf einem Spielfeld zu lösen. Jede Saison gibt es ein neues Spielfeld. Es muss zunächst ein Roboter aus Lego gebaut und programmiert werden, sodass dieser alle Aufgaben autonom lösen kann."
         }
     },
     {
-        "de": {
-            "head": "Roboter Design",
-            "body": "Es geht darum seinen Roboter möglichst strategisch passend zu bauen und dann zu präsentieren. Die Strategie für das Robot Game wird in der selben Präsentation der Jury ebenfalls genauer erläutert."
+        "fr": {
+            "head": "Conception de robots",
+            "body": "L'objectif est de construire votre robot de manière aussi stratégique que possible, puis de le présenter. La stratégie pour le Robot Game est également expliquée plus en détail dans la même présentation devant le jury."
         },
         "en": {
             "head": "Robot Design",
             "body": "The aim is to build your robot as strategically as possible and then present it. The strategy for the Robot Game is also explained in more detail in the same presentation to the jury."
+        },
+        "de": {
+            "head": "Roboter Design",
+            "body": "Es geht darum seinen Roboter möglichst strategisch passend zu bauen und dann zu präsentieren. Die Strategie für das Robot Game wird in der selben Präsentation der Jury ebenfalls genauer erläutert."
         }
     },
     {
-        "de": {
-            "head": "Forschung",
-            "body": "Bei der Forschung geht es darum passend zum Saisonthema etwas zu erforschen bzw. zu entwickeln. Dabei sind der Freiheit <strong> keine </strong> Grenzen gesetzt! Projekte, die wir in den letzten Jahren umgesetzt haben, wurden ebenfalls bei <i> Jugend forscht</i> eingereicht. Forschungen aus den letztend Saisons waren z.B. ein autonomer Liefer Roboter oder ein effizienter Energiespeicher."
+        "fr": {
+            "head": "Recherche",
+            "body": "En matière de recherche, l'objectif est d'explorer ou de développer quelque chose en rapport avec le thème de la saison. Il n'y a <strong> aucune </strong> limite à la liberté dans ce processus ! Les projets mis en œuvre ces dernières années ont également été soumis à <i> Jugend forscht</i>. Des projets des saisons passées comprenaient, par exemple, un robot de livraison autonome ou un système de stockage d'énergie efficace."
         },
         "en": {
             "head": "Research",
             "body": "In research, the goal is to explore or develop something related to the seasonal theme. There are <strong> no </strong> limits to freedom in this process! Projects implemented in recent years have also been submitted to <i> Jugend forscht</i>. Projects from past seasons included, for example, an autonomous delivery robot or an efficient energy storage system."
+        },
+        "de": {
+            "head": "Forschung",
+            "body": "Bei der Forschung geht es darum passend zum Saisonthema etwas zu erforschen bzw. zu entwickeln. Dabei sind der Freiheit <strong> keine </strong> Grenzen gesetzt! Projekte, die wir in den letzten Jahren umgesetzt haben, wurden ebenfalls bei <i> Jugend forscht</i> eingereicht. Forschungen aus den letztend Saisons waren z.B. ein autonomer Liefer Roboter oder ein effizienter Energiespeicher."
         }
     },
-     {
-        "de": {
-            "head": "Grundwerte",
-            "body": "Bei den Grundwerten wird überprüft, wie gut das Team zusammen arbeitet, wie gut sich das Team untereinander versteht und ob alle in den Entwicklungsprozess eingebunden werden. Ein weiter Aspekt der Grundwerte ist z.B. die Nachwuchs Förderung. Diese Kategorie gewinnt das Team, dass sich durch seinen Sportsgeist und Respekt für die anderen Teams, besonders auszeichnet."
+    {
+        "fr": {
+            "head": "Valeurs fondamentales",
+            "body": "Dans le cadre des valeurs fondamentales, on évalue la qualité de la collaboration de l'équipe, la compréhension mutuelle des membres de l'équipe et la participation de chacun au processus de développement. Un autre aspect des valeurs fondamentales, par exemple, est la promotion des jeunes talents. L'équipe qui se distingue particulièrement par son esprit sportif et son respect pour les autres équipes remporte cette catégorie."
         },
         "en": {
             "head": "Core values",
             "body": "In the context of core values, it is assessed how well the team collaborates, how well team members understand each other, and whether everyone is involved in the development process. Another aspect of core values, for example, is the promotion of young talent. The team that stands out particularly for its sportsmanship and respect for other teams wins in this category."
+        },
+        "de": {
+            "head": "Grundwerte",
+            "body": "Bei den Grundwerten wird überprüft, wie gut das Team zusammen arbeitet, wie gut sich das Team untereinander versteht und ob alle in den Entwicklungsprozess eingebunden werden. Ein weiter Aspekt der Grundwerte ist z.B. die Nachwuchs Förderung. Diese Kategorie gewinnt das Team, dass sich durch seinen Sportsgeist und Respekt für die anderen Teams, besonders auszeichnet."
         }
     }
-    
 ]
