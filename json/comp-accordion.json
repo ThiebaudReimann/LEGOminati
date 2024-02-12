@@ -28,6 +28,16 @@
             "head": "Research",
             "body": "In research, the goal is to explore or develop something related to the seasonal theme. There are <strong> no </strong> limits to freedom in this process! Projects implemented in recent years have also been submitted to <i> Jugend forscht</i>. Projects from past seasons included, for example, an autonomous delivery robot or an efficient energy storage system."
         }
+    },
+     {
+        "de": {
+            "head": "Grundwerte",
+            "body": "Bei den Grundwerten wird überprüft, wie gut das Team zusammen arbeitet, wie gut sich das Team untereinander versteht und ob alle in den Entwicklungsprozess eingebunden werden. Ein weiter Aspekt der Grundwerte ist z.B. die Nachwuchs Förderung. Diese Kategorie gewinnt das Team, dass sich durch seinen Sportsgeist und Respekt für die anderen Teams, besonders auszeichnet."
+        },
+        "en": {
+            "head": "Core values",
+            "body": "In the context of core values, it is assessed how well the team collaborates, how well team members understand each other, and whether everyone is involved in the development process. Another aspect of core values, for example, is the promotion of young talent. The team that stands out particularly for its sportsmanship and respect for other teams wins in this category."
+        }
     }
     
 ]
