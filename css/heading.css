@@ -67,3 +67,9 @@
     max-height: 60vh;
     overflow-y: auto;
 }
+.mr-10 {
+    margin-right: 5px;
+}
+.bg-warning {
+    background-color: #fff857 !important;
+}
