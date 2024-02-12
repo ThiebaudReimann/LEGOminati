@@ -8,7 +8,7 @@ function loadImageCarousel() {
 
     const carouselIndicators = document.querySelector('.carousel-indicators');
     const carouselInner = document.querySelector('.carousel-inner');
-    
+
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
@@ -89,14 +89,15 @@ function loadCompAccordion() {
     const jsonFilePath = '../json/comp-accordion.json';
 
     const accordion = document.getElementById('competitionAccordion');
+    const fllText = document.getElementById('fllText');
+    const langGerman = window.location.href.includes('/de/');
+    const langFrench = window.location.href.includes('/fr/');
 
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
-            data.forEach((entry, index) => {
-                const langGerman = window.location.href.includes('/de/');
-                const langFrench = window.location.href.includes('/fr/');
-                
+            fllText.innerHTML = data.fllText[langGerman ? "de" : (langFrench ? "fr" : "en")];
+            data.accordion.forEach((entry, index) => {
                 const accordionMarkup = `
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
