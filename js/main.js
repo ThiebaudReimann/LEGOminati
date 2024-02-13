@@ -1,3 +1,19 @@
+/**
+ * LOAD ALERT
+ */
+function loadMainAlert() {
+    const jsonFilePath = '../json/news.json';
+    const alert = document.getElementById('main-alert');
+    fetch(jsonFilePath)
+        .then(response => response.json())
+        .then(data => {
+            if(data.show) {
+                alert.classList.replace('alert-dark', data.color);
+                alert.innerHTML = data.message;
+                alert.style.display = 'block';
+            }
+        });
+}
 
 /**
  * IMAGE CAROUSEL
@@ -128,13 +144,6 @@ function loadCompAccordion() {
 }
 
 /**
- * NEWS
- */
-function loadNews(params) {
-    
-}
-
-/**
  * ARCHIV
  */
 function loadBlog() {
@@ -190,6 +199,7 @@ function loadBlog() {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+    loadMainAlert();
     loadImageCarousel();
     loadTeamGrid();
     loadCompAccordion();
