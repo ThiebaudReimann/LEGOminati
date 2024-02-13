@@ -1,6 +1,6 @@
 {
     "fllText": {
-        "de": "Die First Lego League ist ein international ausgetragener Wettbewerb. Es gibt jedes Jahr ein neues Saison Thema. In der Altersparte Challenge, in der unser Team jedes Jahr antritt, dürfen Kinder und Jugendliche im Alter von 9 bis 16 Jahren teilnehmen. Bei diesem Wettbewerb soll sich mit Technik und der Zukunft auseinander gesetzt werden. Der Wettbewerb ist in verschiedene Hauptkategorien unterteilt: Robot Game auf dem Spielfeld, Roboter Design und Forschung. Jedes Team muss sich in allen Bereichen vorbereiten und dann am Wettbewerbstag zeigen, was sie in den letzen Monaten geschaffen haben.",
+        "de": "Die First Lego League ist ein international ausgetragener Wettbewerb. Es gibt jedes Jahr ein neues Saison Thema. In der Alterssparte Challenge, in der unser Team jedes Jahr antritt, dürfen Kinder und Jugendliche im Alter von 9 bis 16 Jahren teilnehmen. Bei diesem Wettbewerb soll sich mit Technik und der Zukunft auseinander gesetzt werden. Der Wettbewerb ist in verschiedene Hauptkategorien unterteilt: Robot Game auf dem Spielfeld, Roboter Design und Forschung. Jedes Team muss sich in allen Bereichen vorbereiten und dann am Wettbewerbstag zeigen, was es in den letzen Monaten geschaffen hat.",
         "en": "The First Lego League is an international competition. There is a new season theme every year. In the Challenge age group, in which our team competes every year, children and teenagers aged 9 to 16 can take part. The aim of this competition is to deal with technology and the future. The competition is divided into various main categories: Robot Game on the Field, Robot Design and Research. Each team must prepare in all areas and then present what they have created over the last few months on the day of the competition.",
         "fr": "La First Lego League est une compétition internationale. Chaque année, il y a un nouveau sujet. Des enfants et ados de 9 à 16 ans peuvent participer à la catégorie d'âge Challenge, dont notre équipe fait partie. La compépition a pour objectif de se pencher sur la technologie et sur l'avenir. La compétition est divisée en plusieurs catégories principales : le jeu de robot sur partourt, la conception du robot et le sujet de recherche. Chaque équipe doit se préparer dans tous les domaines et présenter le jour de la compétition ce qu'elle a préparé les mois précédents."
     },
@@ -16,7 +16,7 @@
             },
             "de": {
                 "head": "Robot Game",
-                "body": "Hierbei geht es darum in 2:30 min möglichst viele Aufgaben auf einem Spielfeld zu lösen. Jede Saison gibt es ein neues Spielfeld. Es muss zunächst ein Roboter aus Lego gebaut und programmiert werden, sodass dieser alle Aufgaben autonom lösen kann."
+                "body": "Hierbei ist die Aufgabe in 2:30 min möglichst viele Aufgabenmodelle auf einem Spielfeld zu lösen. Jede Saison gibt es ein neues Spielfeld. Es muss zunächst ein Roboter aus Lego gebaut und dann programmiert werden, sodass dieser alle Aufgaben autonom lösen kann."
             }
         },
         {
@@ -30,7 +30,7 @@
             },
             "de": {
                 "head": "Roboter Design",
-                "body": "Es geht darum seinen Roboter möglichst strategisch passend zu bauen und dann zu präsentieren. Die Strategie für das Robot Game wird in der selben Präsentation der Jury ebenfalls genauer erläutert."
+                "body": "Hier muss jedes Team seinen Roboter möglichst strategisch passend bauen und dann präsentieren. Die Strategie für das Robot Game wird zusammen mit dem Roboter-Design in einer Präsentation der Jury genauer erklärt."
             }
         },
         {
@@ -44,7 +44,7 @@
             },
             "de": {
                 "head": "Forschung",
-                "body": "Bei der Forschung geht es darum passend zum Saisonthema etwas zu erforschen bzw. zu entwickeln. Dabei sind der Freiheit <strong> keine </strong> Grenzen gesetzt! Projekte, die wir in den letzten Jahren umgesetzt haben, wurden ebenfalls bei <i> Jugend forscht</i> eingereicht. Forschungen aus den letztend Saisons waren z.B. ein autonomer Liefer Roboter oder ein effizienter Energiespeicher."
+                "body": "Bei der Forschung dreht sich alles darum, passend zum Saisonthema etwas zu erforschen bzw. zu entwickeln. Dabei sind der Freiheit <strong> keine </strong> Grenzen gesetzt! Projekte, die wir in den letzten Jahren umgesetzt haben, wurden ebenfalls bei <i> Jugend forscht</i> eingereicht. Forschungen aus den letzten Saisons waren z.B. ein autonomer Liefer-Roboter oder ein effizienter Energiespeicher."
             }
         },
         {
@@ -58,7 +58,7 @@
             },
             "de": {
                 "head": "Grundwerte",
-                "body": "Bei den Grundwerten wird überprüft, wie gut das Team zusammen arbeitet, wie gut sich das Team untereinander versteht und ob alle in den Entwicklungsprozess eingebunden werden. Ein weiter Aspekt der Grundwerte ist z.B. die Nachwuchs Förderung. Diese Kategorie gewinnt das Team, dass sich durch seinen Sportsgeist und Respekt für die anderen Teams, besonders auszeichnet."
+                "body": "Bei den Grundwerten wird überprüft, wie gut das Team zusammen arbeitet, wie gut sich die Mitglieder untereinander verstehen und ob alle in den Entwicklungsprozess eingebunden werden. Ein weiter Aspekt der Grundwerte ist z.B. die Nachwuchsförderung. Diese Kategorie gewinnt das Team, dass sich durch seinen Sportsgeist und Respekt für die anderen Teams besonders auszeichnet."
             }
         }
     ]
