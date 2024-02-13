@@ -62,7 +62,7 @@ function loadTeamGrid() {
         .then(data => {
             data.forEach((member, index) => {
                 const cardMarkup = `
-                    <div class="card">
+                    <div class="Teamcard">
                         <img src="${member.img}" alt="Avatar ${index + 1}">
                         <h4>${member.name}</h4>
                         <p>${member.description}</p>
@@ -127,6 +127,12 @@ function loadCompAccordion() {
         });
 }
 
+/**
+ * NEWS
+ */
+function loadNews(params) {
+    
+}
 
 /**
  * ARCHIV

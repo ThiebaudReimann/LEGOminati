@@ -1,0 +1,19 @@
+{
+    "news": [
+        {
+            "id": 0,
+            "img": null,
+            "title": "test",
+            "text": "Das ist ein test Text"
+        },
+        {
+            "id": 1,
+            "img": null,
+            "title": "test2",
+            "text": "Das ist ein test2 Text"
+        }
+    ],
+    "outdated": [
+
+    ]
+}
