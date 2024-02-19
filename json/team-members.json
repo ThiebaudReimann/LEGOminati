@@ -31,7 +31,7 @@
     },
     {
         "name": "Maxi",
-        "description": "Unbekannt",
+        "description": "Konstrukteur",
         "img": "../assets/img/avatars/default.webp"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "name": "Rebecca",
-        "description": "Unbekannt",
+        "description": "Nachwuchstalent",
         "img": "../assets/img/avatars/default.webp"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "name": "Thiébaud",
-        "description": "Supportjunge",
+        "description": "Programmierer",
         "img": "../assets/img/avatars/avatar-thiebaud.jpg"
     }
 ]
