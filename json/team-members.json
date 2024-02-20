@@ -22,7 +22,7 @@
     {
         "name": "Leonard",
         "description": "Konstrukteur",
-        "img": "../assets/img/avatars/default.webp"
+        "img": "../assets/img/avatars/avatar-leonard.jpg"
     },
     {
         "name": "Manuel",
@@ -32,22 +32,22 @@
     {
         "name": "Maxi",
         "description": "Konstrukteur",
-        "img": "../assets/img/avatars/default.webp"
+        "img": "../assets/img/avatars/avatar-max.jpg"
     },
     {
         "name": "Philipp",
         "description": "Der Experte",
-        "img": "../assets/img/avatars/default.webp"
+        "img": "../assets/img/avatars/avatar-philipp.jpg"
     },
     {
         "name": "Rebecca",
         "description": "Nachwuchstalent",
-        "img": "../assets/img/avatars/default.webp"
+        "img": "../assets/img/avatars/avatar-rebecca.jpg"
     },
     {
         "name": "Stephan",
         "description": "Mini Me",
-        "img": "../assets/img/avatars/default.webp"
+        "img": "../assets/img/avatars/avatar-stephan.jpg"
     },
     {
         "name": "Thiébaud",
