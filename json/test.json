@@ -1,4 +1,7 @@
 {
   "test": true,
-  "namme": "hallo welt!"
+  "namme": "hallo welt!",
+  "lala": {
+    "name": "Unbenannt"
+  }
 }
