@@ -45,7 +45,7 @@
       "id": 5,
       "name": "Leonard",
       "description": "Konstrukteur",
-      "img": "../assets/img/avatars/default.webp",
+      "img": "../assets/img/avatars/avatar-leonard.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -65,7 +65,7 @@
       "id": 7,
       "name": "Maxi",
       "description": "Konstrukteur",
-      "img": "../assets/img/avatars/default.webp",
+      "img": "../assets/img/avatars/avatar-max.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -75,7 +75,7 @@
       "id": 8,
       "name": "Philipp",
       "description": "Der Experte",
-      "img": "../assets/img/avatars/default.webp",
+      "img": "../assets/img/avatars/avatar-philipp.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -85,7 +85,7 @@
       "id": 9,
       "name": "Rebecca",
       "description": "Nachwuchstalent",
-      "img": "../assets/img/avatars/default.webp",
+      "img": "../assets/img/avatars/avatar-rebecca.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -95,7 +95,7 @@
       "id": 10,
       "name": "Stephan",
       "description": "Mini Me",
-      "img": "../assets/img/avatars/default.webp",
+      "img": "../assets/img/avatars/avatar-stephan.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -104,7 +104,7 @@
     {
       "id": 11,
       "name": "Thiébaud",
-      "description": "Support Junge",
+      "description": "Supportjunge",
       "img": "../assets/img/avatars/avatar-thiebaud.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
