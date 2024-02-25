@@ -19,7 +19,7 @@ function loadMemberData() {
     .then((data) => {
       isGerman = window.location.href.includes("/de/");
       isEnglish = window.location.href.includes("/en/");
-      const member = data.find((member) => member.name === urlParams.get("m"));
+      const member = data.members.find((member) => member.name === urlParams.get("m"));
       //dropdown Language
       dropdownLang.href = dropdownLang.href + "?m=" + member.name;
       //set heading
