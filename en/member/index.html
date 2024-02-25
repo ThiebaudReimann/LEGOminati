@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal - LEGOminati</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link href="../../css/colors.min.css" rel="stylesheet">
+    <link rel="prefetch">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../../css/aos.css" />
+    <style>
+        .name-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .name-container img {
+            margin-right: 10px;
+            height: 3rem;
+            width: 3rem;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-warning" style="height: 10px;"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="../">
+                <img src="../../assets/img/logos/LEGOminati-Logo.png" alt="Logo" width="40"
+                    class="d-inline-block align-text-top mr-10">
+                <span> <span class="inika">LEGO</span>minati</span>
+            </a>
+
+            <!-- Navbar-Toggler für mobile Ansicht -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar-Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-pills ms-auto text-center">
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" href="../#about">About Us</a>
+                    </li>
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" href="../#team">Team</a>
+                    </li>
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" href="../#competition">Competition</a>
+                    </li>
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" href="../#blog">Archive</a>
+                    </li>
+                    <div class="dropdown nav-spacing">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            en
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="dropdown-lang" href="../../de/member/">de</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="alert alert-dark fixed-bottom" id="main-alert" style="margin-bottom: 0 !important;" role="alert">
+        Loading..</div>
+
+    <div class="container mt-5" data-aos="fade-up" data-aos-delay="400">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="../#team">Member</a></li>
+                <li class="breadcrumb-item active" aria-current="page" id="breadcrumb-name">Thiébaud</li>
+            </ol>
+        </nav>
+        <div class="content" id="member-info-container">
+            <div class="name-container">
+                <img id="member-avatar" src="../../assets/img/avatars/avatar-thiebaud.jpg" alt="Thiébaud">
+                <h1 id="member-name">Thiébaud</h1>
+            </div>
+            <h5 class="text-body-secondary" id="member-role">Support Junge</h5>
+            <span id="member-biographie">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, excepturi
+                debitis laudantium amet tempore laborum, quas nemo animi harum rerum velit suscipit? Voluptatum beatae
+                qui, in officia voluptatem laborum ut!</span>
+        </div>
+        <script src="../../js/member.js"></script>
+    </div>
+
+    <footer>
+        <hr class="border border-primary border-3 opacity-75">
+        <div>
+            <div class="mx-auto p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Address</h5>
+                        <p class="card-text">Am Sportpark 1, 95448 Bayreuth <br>
+                            <a href="mailto:info@legominati.de">info@legominati.de</a> <br>
+                            0921-251950
+                        </p>
+                        <a href="https://wwg-bayreuth.de/" class="btn btn-primary" target="_blank">WWG Bayreuth</a>
+                        <a href="#" class="btn btn-primary">Legal Notice</a>
+                        <a href="https://github.com/ThiebaudReimann/LEGOminati" class="btn btn-primary">Github</a>
+                    </div>
+                    <p class="text-center">&copy; 2024 Thiebaud Reimann</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

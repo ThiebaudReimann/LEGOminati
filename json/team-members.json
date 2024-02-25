@@ -1,57 +1,115 @@
-[
+{
+  "link": false,
+  "members": [
     {
-        "name": "Stingl",
-        "description": "Coach",
-        "img": "../assets/img/avatars/avatar-stingl.jpg"
+      "id": 1,
+      "name": "Stingl",
+      "description": "Coach",
+      "img": "../assets/img/avatars/avatar-stingl.jpg",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "I. Günther",
-        "description": "Coach",
-        "img": "../assets/img/avatars/avatar-guenther.jpg"
+      "id": 2,
+      "name": "I. Günther",
+      "description": "Coach",
+      "img": "../assets/img/avatars/avatar-guenther.jpg",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Auriel",
-        "description": "Mate Junkie",
-        "img": "../assets/img/avatars/avatar-auriel.jpg"
+      "id": 3,
+      "name": "Auriel",
+      "description": "Mate Junkie",
+      "img": "../assets/img/avatars/avatar-auriel.jpg",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Laurin",
-        "description": "Multitalent",
-        "img": "../assets/img/avatars/avatar-laurin.jpg"
+      "id": 4,
+      "name": "Laurin",
+      "description": "Multitalent",
+      "img": "../assets/img/avatars/avatar-laurin.jpg",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Leonard",
-        "description": "Konstrukteur",
-        "img": "../assets/img/avatars/default.webp"
+      "id": 5,
+      "name": "Leonard",
+      "description": "Konstrukteur",
+      "img": "../assets/img/avatars/default.webp",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Manuel",
-        "description": "Junior-Coach",
-        "img": "../assets/img/avatars/avatar-manuel.jpg"
+      "id": 6,
+      "name": "Manuel",
+      "description": "Junior-Coach",
+      "img": "../assets/img/avatars/avatar-manuel.jpg",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Maxi",
-        "description": "Konstrukteur",
-        "img": "../assets/img/avatars/default.webp"
+      "id": 7,
+      "name": "Maxi",
+      "description": "Konstrukteur",
+      "img": "../assets/img/avatars/default.webp",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Philipp",
-        "description": "Der Experte",
-        "img": "../assets/img/avatars/default.webp"
+      "id": 8,
+      "name": "Philipp",
+      "description": "Der Experte",
+      "img": "../assets/img/avatars/default.webp",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Rebecca",
-        "description": "Nachwuchstalent",
-        "img": "../assets/img/avatars/default.webp"
+      "id": 9,
+      "name": "Rebecca",
+      "description": "Nachwuchstalent",
+      "img": "../assets/img/avatars/default.webp",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Stephan",
-        "description": "Mini Me",
-        "img": "../assets/img/avatars/default.webp"
+      "id": 10,
+      "name": "Stephan",
+      "description": "Mini Me",
+      "img": "../assets/img/avatars/default.webp",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     },
     {
-        "name": "Thiébaud",
-        "description": "Support Junge",
-        "img": "../assets/img/avatars/avatar-thiebaud.jpg"
+      "id": 11,
+      "name": "Thiébaud",
+      "description": "Support Junge",
+      "img": "../assets/img/avatars/avatar-thiebaud.jpg",
+      "biographie": {
+        "de": "Noch keine Biografie",
+        "en": "No biography"
+      }
     }
-]
+  ]
+}
