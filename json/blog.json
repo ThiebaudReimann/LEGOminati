@@ -10,9 +10,9 @@
         "saisonIcon": "../assets/icons/seasons/MASTERPIECE.png",
         "iconLink": "https://www.wwg-bayreuth.de/service/aktuelles#20240205_15080_Road_to_Davos_",
         "text": {
-            "de": "<h4>Regionalwettbewerb Nürnberg</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Nominierung Robot-Design <br>Nominierung Forschung <br>Nominierung Grundwerte</span><br><br><h4>Semifinale Regensburg</h4><span>Am 24.02.2024</span>",
-            "en": "<h4>Regional Competition Nuremberg</h4><span>Champion Trophy <br>Robot Game Trophy <br>Nomination Robot Design <br>Nomination Research <br>Nomination Core Values</span><br><br><h4>Semifinal Regensburg</h4><span>On 24.02.2024</span>",
-            "fr": "<h4>Concours régional de Nuremberg</h4><span>Trophée de champion <br>Trophée du jeu de robot <br>Nomination pour la conception du robot <br>Nomination pour la recherche <br>Nomination pour les valeurs fondamentales</span><br><br><h4>Demi-finale de Ratisbonne</h4><span>Le 24.02.2024</span>"
+            "de": "<h4>Regionalwettbewerb Nürnberg</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Nominierung Robot-Design <br>Nominierung Forschung <br>Nominierung Grundwerte</span><br><br><h4>Semifinale Regensburg</h4><span>Robot-Game Pokal</span>",
+            "en": "<h4>Regional Competition Nuremberg</h4><span>Champion Trophy <br>Robot Game Trophy <br>Nomination Robot Design <br>Nomination Research <br>Nomination Core Values</span><br><br><h4>Semifinal Regensburg</h4><span>Robot Game Trophy</span>",
+            "fr": "<h4>Concours régional de Nuremberg</h4><span>Trophée de champion <br>Trophée du jeu de robot <br>Nomination pour la conception du robot <br>Nomination pour la recherche <br>Nomination pour les valeurs fondamentales</span><br><br><h4>Demi-finale de Ratisbonne</h4><span>Trophée du jeu de robot</span>"
         }
     },
     {
