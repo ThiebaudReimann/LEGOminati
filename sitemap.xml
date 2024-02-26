@@ -1,11 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.letsgominati.de</loc>
+		<priority>1.00</priority>
+		<lastmod>2024-02-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/fr</loc>
+		<priority>0.83</priority>
+		<lastmod>2024-02-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/en</loc>
+		<priority>0.83</priority>
+		<lastmod>2024-02-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/de</loc>
+		<priority>0.83</priority>
+		<lastmod>2024-02-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/en/member</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-02-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/en/legal</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-02-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/de/member</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-02-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/de/impressum</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-02-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/node_modules/classlist-polyfill/tests/qunit.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-02-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/node_modules/aos/demo/simple.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-02-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/node_modules/aos/demo/async.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-02-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/node_modules/aos/test/fixtures/aos.fixture.html</loc>
+		<priority>0.17</priority>
+		<lastmod>2024-02-06</lastmod>
+	</url>
+	<url>
+		<loc>https://www.letsgominati.de/node_modules/aos/test/fixtures/aos-offset.fixture.html</loc>
+		<priority>0.17</priority>
+		<lastmod>2024-02-06</lastmod>
+	</url>
 </urlset>
