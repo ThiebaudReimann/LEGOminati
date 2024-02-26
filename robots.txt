@@ -1,2 +1,8 @@
 User-agent: *
-Allow: /
+Disallow: /json
+Disallow: /css
+Disallow: /js
+Disallow: /node_modules
+
+
+Sitemap: https://www.letsgominati.de/sitemap.xml
