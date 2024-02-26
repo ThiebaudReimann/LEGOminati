@@ -72,13 +72,13 @@ function loadTeamGrid() {
     const jsonFilePath = '../json/team-members.json';
 
     const teamGridContainer = document.getElementById('team-grid-container');
-    const langFrench = window.location.href.includes('/fr/');
+    const langGer = window.location.href.includes('/de/');
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
             data.members.forEach((member, index) => {
                 const cardMarkup = `
-                    <a href="${data.link ? (langFrench ? `/en/member/?m=${member.name}` : `member/?m=${member.name}`) : ""}" class="text-light text-decoration-none"><div class="Teamcard">
+                    <a href="${data.link ? (langGer ? `/de/member/?m=${member.name}` : `/en/member/?m=${member.name}`) : ""}" class="text-light text-decoration-none"><div class="Teamcard">
                     <img src="${member.img}" alt="Avatar ${index + 1}">
                     <h4>${member.name}</h4>
                     <p>${member.description}</p>
