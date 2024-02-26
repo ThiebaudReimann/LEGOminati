@@ -40,29 +40,4 @@
 		<priority>0</priority>
 		<lastmod>2024-02-25</lastmod>
 	</url>
-	<url>
-		<loc>https://www.letsgominati.de/node_modules/classlist-polyfill/tests/qunit.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2024-02-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.letsgominati.de/node_modules/aos/demo/simple.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2024-02-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.letsgominati.de/node_modules/aos/demo/async.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2024-02-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.letsgominati.de/node_modules/aos/test/fixtures/aos.fixture.html</loc>
-		<priority>0.17</priority>
-		<lastmod>2024-02-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.letsgominati.de/node_modules/aos/test/fixtures/aos-offset.fixture.html</loc>
-		<priority>0.17</priority>
-		<lastmod>2024-02-06</lastmod>
-	</url>
 </urlset>
