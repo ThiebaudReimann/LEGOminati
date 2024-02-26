@@ -1,5 +1,6 @@
 User-agent: *
-Allow: /
+Disallow: /js/aos.js
+Disallow: /css/aos.css
 
 
 Sitemap: https://www.letsgominati.de/sitemap.xml
