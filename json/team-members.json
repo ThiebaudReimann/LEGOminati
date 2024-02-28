@@ -105,7 +105,7 @@
       "id": 11,
       "name": "Thiébaud",
       "description": "Supportjunge",
-      "img": "blob:http://localhost:3000/5c331632-1f3f-467b-9b51-27835e19eee2",
+      "img": "../assets/img/avatars/avatar-thiebaud.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography TEST"
