@@ -58,9 +58,9 @@
         "saisonIcon": "../assets/icons/seasons/REPLAY.png",
         "iconLink": null,
         "text": {
-            "de": "<h4>Regionalwettbewerb Kulmbach (virtuell)</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Robot-Design Pokal <br> Coach Pokal <br>2. Platz Forschung <br>2. Platz Grundwerte</span><br><br><h4>DACH Finale (virtuell)</h4>",
-            "en": "<h4>Regional Competition Kulmbach (virtual)</h4><span>Champion Trophy <br>Robot Game Trophy <br>Robot Design Trophy <br>Coach Trophy <br>2nd Place Research <br>2nd Place Core Values</span><br><br><h4>DACH Finals (virtual)</h4>",
-            "fr": "<h4>Concours régional de Kulmbach (virtuel)</h4><span>Trophée du champion <br>Trophée du jeu de robot <br>Trophée de conception de robot <br>Trophée de l'entraîneur <br>2e place en recherche <br>2e place en valeurs fondamentales</span><br><br><h4>Finales DACH (virtuelles)</h4>"
+            "de": "<h4>Regionalwettbewerb Kulmbach (virtuell)</h4><span>Champion Pokal <br>Robot-Game Pokal <br>Robot-Design Pokal <br> Coach Pokal <br>2. Platz Forschung <br>2. Platz Grundwerte</span><br><br><h4>DACH Finale (virtuell)</h4><span>Teilnahme</span>",
+            "en": "<h4>Regional Competition Kulmbach (virtual)</h4><span>Champion Trophy <br>Robot Game Trophy <br>Robot Design Trophy <br>Coach Trophy <br>2nd Place Research <br>2nd Place Core Values</span><br><br><h4>DACH Finals (virtual)</h4><span>participation</span>",
+            "fr": "<h4>Concours régional de Kulmbach (virtuel)</h4><span>Trophée du champion <br>Trophée du jeu de robot <br>Trophée de conception de robot <br>Trophée de l'entraîneur <br>2e place en recherche <br>2e place en valeurs fondamentales</span><br><br><h4>Finales DACH (virtuelles)</h4><span>participation</span>"
         }
     },
     {
