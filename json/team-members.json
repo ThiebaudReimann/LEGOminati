@@ -105,7 +105,7 @@
       "id": 11,
       "name": "Thiébaud",
       "description": "Supportjunge",
-      "img": "../assets/img/avatars/avatar-thiebaud.jpg",
+      "img": "https://www.letsgominati.de/assets/img/avatars/avatar-thiebaud.jpg",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography TEST"
