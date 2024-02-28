@@ -105,7 +105,7 @@
       "id": 11,
       "name": "Thiébaud",
       "description": "Supportjunge",
-      "img": "../assets/img/avatars/avatar-thiebaud.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-thiebaud.jpeg?alt=media&token=0b35bdd4-a56e-4626-843a-a5fdfe8ba1ec",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography TEST"
