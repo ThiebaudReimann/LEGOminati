@@ -24,7 +24,7 @@ function loadMemberData() {
       dropdownLang.href = dropdownLang.href + "?m=" + member.name;
       //set heading
       memberName.innerHTML = member.name;
-      avatar.src = "../" + member.img;
+      avatar.src = member.img;
       //set role
       memberRole.innerHTML = member.description;
       //set biography
