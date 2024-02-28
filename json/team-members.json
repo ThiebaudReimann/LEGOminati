@@ -105,9 +105,9 @@
       "id": 11,
       "name": "Thiébaud",
       "description": "Supportjunge",
-      "img": "",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-thiebaud.jpeg?alt=media&token=ff039d44-9402-4c53-8bc4-ddd42a021643",
       "biographie": {
-        "de": "Ich bin 14 Jahre alt!",
+        "de": "Noch keine Biografie",
         "en": "No biography TEST"
       }
     }
