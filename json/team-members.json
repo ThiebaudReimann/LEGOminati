@@ -103,12 +103,11 @@
     },
     {
       "id": 11,
-      "name": "Thiébaud",
-      "description": "Supportjunge",
-      "img": "../assets/img/avatars/avatar-thiebaud.jpg",
+      "name": "Thiébauds",
+      "description": "Supportjunges",
       "biographie": {
-        "de": "Noch keine Biografie",
-        "en": "No biography TEST"
+        "de": "Noch keine Biografies",
+        "en": "No biography TESTs"
       }
     }
   ]
