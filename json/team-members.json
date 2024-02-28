@@ -5,7 +5,7 @@
       "id": 1,
       "name": "Stingl",
       "description": "Coach",
-      "img": "../assets/img/avatars/avatar-stingl.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-stingl.jpg?alt=media&token=98b8a561-f0ca-4585-bb22-6efb58eff398",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -15,7 +15,7 @@
       "id": 2,
       "name": "I. Günther",
       "description": "Coach",
-      "img": "../assets/img/avatars/avatar-guenther.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-guenther.jpg?alt=media&token=51b2e72f-d225-40bb-a652-8bee3e563c70",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -25,7 +25,7 @@
       "id": 3,
       "name": "Auriel",
       "description": "Mate Junkie",
-      "img": "../assets/img/avatars/avatar-auriel.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-auriel.jpg?alt=media&token=ccb69251-7ac3-4582-93f4-c98d47877b83",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -35,7 +35,7 @@
       "id": 4,
       "name": "Laurin",
       "description": "Multitalent",
-      "img": "../assets/img/avatars/avatar-laurin.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-laurin.jpg?alt=media&token=f3238fe1-db7e-42ce-bb32-f74ca6ff1b90",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -45,7 +45,7 @@
       "id": 5,
       "name": "Leonard",
       "description": "Konstrukteur",
-      "img": "../assets/img/avatars/avatar-leonard.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-leonard.jpg?alt=media&token=30774be6-6e6c-4773-b45b-630acfaf0689",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -55,7 +55,7 @@
       "id": 6,
       "name": "Manuel",
       "description": "Junior-Coach",
-      "img": "../assets/img/avatars/avatar-manuel.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-manuel.jpg?alt=media&token=ba5926ee-610a-4eed-9167-7c2ea35077ea",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -65,7 +65,7 @@
       "id": 7,
       "name": "Maxi",
       "description": "Konstrukteur",
-      "img": "../assets/img/avatars/avatar-max.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-max.jpg?alt=media&token=3bfdf392-4078-44f1-a2a6-66bd1dd33d26",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -75,7 +75,7 @@
       "id": 8,
       "name": "Philipp",
       "description": "Der Experte",
-      "img": "../assets/img/avatars/avatar-philipp.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-philipp.jpg?alt=media&token=693ea6f1-bcab-49ea-89f7-2be513a7edf8",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -85,7 +85,7 @@
       "id": 9,
       "name": "Rebecca",
       "description": "Nachwuchstalent",
-      "img": "../assets/img/avatars/avatar-rebecca.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-rebecca.jpg?alt=media&token=dd8c90d4-ef41-4f2d-beec-ecbeeb4aabe4",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
@@ -95,7 +95,7 @@
       "id": 10,
       "name": "Stephan",
       "description": "Mini Me",
-      "img": "../assets/img/avatars/avatar-stephan.jpg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/legominati-dashboard.appspot.com/o/avatars%2Favatar-stephan.jpg?alt=media&token=995a6b62-0827-4b5b-8a5d-c4ea4f35cad9",
       "biographie": {
         "de": "Noch keine Biografie",
         "en": "No biography"
