@@ -1,5 +1,65 @@
 [
     {
+      "imagePath": "../assets/img/carousel/6.1 2024.webp",
+      "altText": "6.1"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.10-2024.webp",
+      "altText": "6.10"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.11-2024.webp",
+      "altText": "6.11"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.12-2024.webp",
+      "altText": "6.12"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.13-2024.webp",
+      "altText": "6.13"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.14-2024.webp",
+      "altText": "6.14"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.15-2024.webp",
+      "altText": "6.15"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.17-2024.webp",
+      "altText": "6.17"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.2 2024.webp",
+      "altText": "6.2"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.3 2024.webp",
+      "altText": "6.3"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.4 2024.webp",
+      "altText": "6.4"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.5 2024.webp",
+      "altText": "6.5"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.6 2024.webp",
+      "altText": "6.6"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.8 2024.webp",
+      "altText": "6.8"
+    },
+    {
+      "imagePath": "../assets/img/carousel/6.9 2024.webp",
+      "altText": "6.9"
+    },
+    {
       "imagePath": "../assets/img/carousel/1.1 2024.jpg",
       "altText": "1.1"
     },
@@ -43,5 +103,4 @@
       "imagePath": "../assets/img/carousel/5.1 2023.jpg",
       "altText": "5.1"
     }
-  ]
-  
+]
