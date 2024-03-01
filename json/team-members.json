@@ -2,6 +2,16 @@
   "link": true,
   "members": [
     {
+      "id": 0,
+      "name": "Undefinded",
+      "description": "Undefined",
+      "img": "undefined",
+      "biographie": {
+        "de": "undefined",
+        "en": "undefined"
+      }
+    },
+    {
       "id": 1,
       "name": "Stingl",
       "description": "Coach",
