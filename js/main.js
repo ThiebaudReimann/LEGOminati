@@ -77,6 +77,9 @@ function loadTeamGrid() {
         .then(response => response.json())
         .then(data => {
             data.members.forEach((member, index) => {
+                if (index == 1) {
+                    continue;
+                }
                 const cardMarkup = `
                     <a href="${data.link ? (langGer ? `/de/member/?m=${member.name}` : `/en/member/?m=${member.name}`) : ""}" class="text-light text-decoration-none"><div class="Teamcard">
                     <img src="${member.img}" alt="Avatar ${index + 1}">
